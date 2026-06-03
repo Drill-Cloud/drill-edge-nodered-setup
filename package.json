@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "description": "Node-RED Edge local setup",
   "scripts": {
-    "start": "node-red -D @./custom-settings.txt"
+    "start": "node-red --userDir . -D editorTheme.projects.enabled=true -D runtimeState.ui=true"
   },
   "dependencies": {
     "node-red": "^4.1.10"

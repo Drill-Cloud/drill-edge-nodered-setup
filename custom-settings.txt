@@ -1,3 +1,0 @@
-userDir=.
-editorTheme.projects.enabled=true
-runtimeState.ui=true
