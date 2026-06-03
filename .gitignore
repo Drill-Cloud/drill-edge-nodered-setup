@@ -1,5 +1,7 @@
-node_modules
-projects
-.config*
-package-lock.json
-lib
+# Ignore everything
+*
+
+# Except these files
+!.gitignore
+!package.json
+!README.md
