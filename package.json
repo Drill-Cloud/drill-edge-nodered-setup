@@ -1,0 +1,11 @@
+{
+  "name": "node-red-edge-local-setup",
+  "version": "0.1.0",
+  "description": "Node-RED Edge local setup",
+  "scripts": {
+    "start": "node-red -D @./custom-settings.txt"
+  },
+  "dependencies": {
+    "node-red": "^4.1.10"
+  }
+}
