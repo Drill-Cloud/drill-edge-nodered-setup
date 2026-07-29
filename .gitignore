@@ -2,6 +2,7 @@
 *
 
 # Except these files
+!.env.example
 !.gitignore
 !package.json
 !README.md

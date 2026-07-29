@@ -1,11 +1,12 @@
 {
   "name": "node-red-edge-local-setup",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "Node-RED Edge local setup",
   "scripts": {
-    "start": "node-red --userDir . -D editorTheme.projects.enabled=true -D runtimeState.enabled=true -D runtimeState.ui=true"
+    "start": "dotenv -- node-red --userDir . -D editorTheme.projects.enabled=true -D runtimeState.enabled=true -D runtimeState.ui=true"
   },
   "dependencies": {
-    "node-red": "^4.1.10"
+    "dotenv-cli": "^11.0.0",
+    "node-red": "^5.0.1"
   }
 }
